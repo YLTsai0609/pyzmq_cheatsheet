@@ -24,6 +24,16 @@ Still, we need a cross-process, cross-thread sample code so that we can dive int
 
 # 08_cross_process_thread
 
+## multi process
+
+check process_server_client.py
+
+全都用網路通信，算是簡單直覺
+
+## multi thread
+
+複雜了不少，大抵上的概念是透過 `Context` 來互傳訊息就好，其他Lock那些都不用了
+
 不需要mutexes, lock 或是任何跨Thread的連接，請使用ZeroMQ sockets，ZeroMQ作者認為透過ZeroMQ來寫多線程任務是很完美的，同樣的設計可以再任意程式語言，任意作業系統，任意規模的CPU，近乎不用等待時間
 
 注意事項 ： 請不要共享狀態
