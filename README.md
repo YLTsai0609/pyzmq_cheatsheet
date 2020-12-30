@@ -8,6 +8,10 @@
 
 [doc](https://zeromq.org/get-started/?language=python&library=pyzmq#)
 
+[doc中文翻譯 - third party](https://blog.maxkit.com.tw/2019/09/zeromq-2-sockets-and-patterns.html)
+
+[pyzmq code and examples](https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/pyzmq.html)
+
 # getting start
 
  `pip install pyzmq`
